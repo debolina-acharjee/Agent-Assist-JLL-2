@@ -36,7 +36,7 @@ namespace JLL_Edge_ClearTempFiles
 
                 {
 
-                    UserPrompt.Disclaimer("Permission denied, program will now exit!");
+                    UserPrompt.Disclaimer("Permission denied,program will now exit!");
 
                     return;
                 }

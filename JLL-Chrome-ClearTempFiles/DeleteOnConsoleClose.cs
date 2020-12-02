@@ -62,7 +62,7 @@ namespace JLL_Chrome_ClearTempFiles
 
             hr = new HandlerRoutine(InspectControlType);
 
-            SetConsoleCtrlHandler(hr, true);
+            SetConsoleCtrlHandler(hr,true);
 
         }
 
