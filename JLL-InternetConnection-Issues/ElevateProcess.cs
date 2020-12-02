@@ -9,12 +9,7 @@ namespace JLL_InternetConnection_Issues
 {
     class ElevateProcess
     {
-        /// <summary>
-        /// Invoke the Commandline arguments from the command given with elevated previlages. 
-        /// </summary>
-        /// <param name="command">CMD command</param>
-        /// <param name="waitTillExit">If you want to wait for the command to execute</param>
-        /// <param name="closeOutputWindow">Closes main window after execution for UI based application</param>
+      
         public static void Invoke(string command, bool waitTillExit = false, bool closeOutputWindow = false)
         {
             try
