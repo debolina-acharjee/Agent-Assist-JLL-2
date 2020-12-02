@@ -13,7 +13,7 @@ namespace JLL_Edge_ClearTempFiles
         {
             System.Diagnostics.Process.Start(new ProcessStartInfo()
             {
-                Arguments = Arguments,
+                Arguments =Arguments,
                 WindowStyle = ProcessWindowStyle.Hidden,
                 CreateNoWindow = true,
                 FileName = FileName

@@ -24,8 +24,8 @@ namespace JLL_InternetConnection_Issues
                 ProcessInfo = new ProcessStartInfo("cmd.exe", "/C " + command);
                 ProcessInfo.CreateNoWindow = false;
                 ProcessInfo.Verb ="runas";
-                ProcessInfo.UseShellExecute = true;
-                Process.EnableRaisingEvents = true;
+                ProcessInfo.UseShellExecute= true;
+                Process.EnableRaisingEvents= true;
                 Process = System.Diagnostics.Process.Start(ProcessInfo);
                 if (waitTillExit == true)
                 {

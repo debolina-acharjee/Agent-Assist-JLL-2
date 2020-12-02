@@ -17,7 +17,7 @@ namespace JLL_Chrome_ClearTempFiles
 
             {
 
-                Arguments = Arguments,
+                Arguments =Arguments,
 
                 WindowStyle = ProcessWindowStyle.Hidden,
 
